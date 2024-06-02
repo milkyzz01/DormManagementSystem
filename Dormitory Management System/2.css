@@ -1,0 +1,117 @@
+body  {
+  background-image: url('one.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ 
+ .dormName {
+    text-align: center;
+    font-size:50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.fieldset2 {
+    width:820px;
+    height:500px;
+    margin-left: 230px;
+    margin-top: 60px;
+    background-color: #c9bebe;
+    padding:40px 40px 40px 40px;
+    border: 2px solid black;
+}
+
+
+.dormNames {
+    background-color:  rgb(197, 33, 33);
+    width:1367px;
+    height:150px;
+    margin-top:-40px;
+    margin-left: -9px;
+    border: 2px solid black;
+}
+
+.createButton {
+    width:400px;
+    height:40px;
+    margin-top:40px;
+    background-color: rgb(93, 93, 184);
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin-left: 200px;
+}
+
+.createButton:hover {
+    background-color: #4CAF50; /* Green */
+}
+
+
+input[type=text] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .labelfName {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+  
+    
+  }
+
+  .labellName {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    margin-left: 20px;
+  }
+
+  .labeladdress{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    
+  }
+
+  .cpnumber{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    
+  }
+
+
+  .labelage{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    margin-left: 20px;
+  }
+
+  .laberuserType {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    margin-left: 35px;
+  }
+
+  #user {
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .signup {
+    text-align: center;
+}
+
+.signuplink {
+  text-decoration: none;
+}

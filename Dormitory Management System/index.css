@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    scroll-behavior: smooth;
+    
+}
+
+body::before{
+    background-image: url("dormbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 3000px;
+    content:'';
+    background-position: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+}
+
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+    
+}
+
+.dormname{
+    background-color: #dbc6a4;
+    width: 98%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+    border: 1px solid;
+    position: fixed;
+    z-index: 10;
+    margin-bottom: 30px;
+     
+}
+
+ul{
+    
+    list-style: none;
+    margin-top: 30px;
+    cursor: pointer;
+    position: sticky;
+
+}
+
+ul li{
+    padding-left: 50px;
+    display: inline-block;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color:black;
+    transition: all 0.3 ease 0s;
+    position: sticky;
+}
+
+ul li a:hover{
+    color:blueviolet;
+}
+h1{
+    cursor: pointer;
+}
+
+.aboutus{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background-color: #dbc6a4;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 50px;
+    border: 1px solid;
+    box-shadow:  20px 20px 60px black,
+             -20px -20px 60px #fce4bd;
+}
+.aboutus p{
+    padding: 20px 3em;
+    padding-bottom: 3em;
+    position: relative;
+    transform: translateY(0%);
+    font-size: 20px;
+}
+
+section{
+    max-width: 900px;
+    margin: 0 auto 1em;
+    height: 200px;
+    position: relative;
+    border-right: .2em;
+    transform: preserve-3d;
+}
+
+.aboutus h1{
+    padding-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.container{
+    width: 100%;
+    height: 120vh;
+    background-color: #dbc6a4;
+    border-radius: 50px;
+    border: 1px solid;
+    box-shadow:  20px 20px 60px black,
+             -20px -20px 60px #fce4bd;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.swiper{
+    width: 80%;
+    height: fit-content;
+
+
+}
+
+.swiper-slide img{
+    width: 100%;
+    padding-bottom: 50px;
+    
+}
+
+.swiper .swiper-button-prev{
+    color: #fff;
+}
+
+.swiper .swiper-button-next{
+    color:#fff;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 70px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 250px;
+    
+}
+
+.onee{
+    margin-left: -20px;
+}
+
+.twoo{
+    margin-left: -30px;
+}
+
+.footer img{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    
+}
+
+footer{
+    background-color: #dbc6a4;
+    width:90%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    height: 80vh;
+    border-radius: 50px;
+    border: 1px solid;
+    box-shadow:  20px 20px 60px black,
+             -20px -20px 60px #fce4bd;
+    text-align: center;
+    
+    
+
+}
+
+
+
+footer h1{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer p{
+    display: flex;
+}
+h4{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 2px;
+    padding: 30px 100px;
+    cursor: pointer;
+
+}
+
+h4 a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3 ease 0s;
+}
+
+h4 a:hover{
+    color: blueviolet;
+}
